@@ -1,1 +1,68 @@
 @import url('reset.css');
+
+body {
+  background-color: #eaeaea;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+
+.container__content {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+
+  padding: 20px 20px;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu-phone {
+  width: 15px;
+  height: 21px;
+
+  margin-right: 15px;
+}
+
+.header__menu-text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  margin-right: 5px;
+}
+
+.header__menu-arrow {
+  width: 8px;
+  height: 5px;
+}
+
+.header__icons {
+  display: flex;
+}
+
+.header__icon {
+  margin-right: 45px;
+}
+
+.header__icon-img {
+  width: 22px;
+  height: 20px;
+}
