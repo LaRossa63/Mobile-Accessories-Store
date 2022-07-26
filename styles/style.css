@@ -9,7 +9,7 @@ body {
 
 .container__content {
   width: 100%;
-  max-width: 1110px;
+  max-width: 1200px;
   margin: 0 auto;
 
   padding: 20px 20px;
@@ -95,4 +95,55 @@ body {
   height: 226px;
 
   object-fit: fill;
+}
+
+/* Carts */
+
+.carts {
+}
+
+.carts__category {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #838383;
+}
+
+/* Case */
+
+.cases {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.case {
+  width: 100%;
+  max-width: 350px;
+
+  height: 100%;
+  max-height: 407px;
+
+  background-color: white;
+  border-radius: 30px;
+
+  padding: 25px 100px;
+  margin: 30px 15px;
+}
+
+.case__img {
+  width: 151px;
+  height: 292px;
+
+  padding-bottom: 20px;
+}
+
+.case__title {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+
+  text-align: center;
+
+  color: #1c1c27;
 }
