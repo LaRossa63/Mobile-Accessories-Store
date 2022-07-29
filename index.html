@@ -6,45 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Магазин</title>
 
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="/sass/main.css" />
   </head>
 
   <body>
     <header class="header container">
       <h2 class="header__title">QPICK</h2>
 
-      <nav class="header__menu">
+      <nav class="header__nav">
         <img
-          class="header__menu-phone"
-          src="img/header/phone.svg"
+          class="header__nav-phone"
+          src="./img/header/phone.svg"
           alt="phone.svg"
         />
 
-        <p class="header__menu-text">Выбрать модель телефона</p>
+        <span class="header__nav-text">Выбрать модель телефона</span>
 
         <img
-          class="header__menu-arrow"
-          src="img/header/arrow_down.svg"
+          class="header__nav-arrow"
+          src="./img/header/arrow_down.svg"
           alt="arrow_down.svg"
         />
       </nav>
 
-      <div class="header__icons">
-        <div class="header__icon">
-          <img
-            class="header__icon-img"
-            src="img/header/like.svg"
-            alt="like.svg"
-          />
-        </div>
+      <div>
+        <img
+          class="header__container-like"
+          src="./img/header/like.svg"
+          alt="like.svg"
+        />
 
-        <div class="header__icon">
-          <img
-            class="header__icon-img"
-            src="img/header/store.svg"
-            alt="store.svg"
-          />
-        </div>
+        <img
+          class="header__container-store"
+          src="./img/header/store.svg"
+          alt="store.svg"
+        />
       </div>
     </header>
 
@@ -55,315 +51,297 @@
         Iphone 13 Pro Max
       </h1>
 
-      <img class="banner__img" src="img/banner/logo.png" alt="logo.png" />
+      <img class="banner__logo" src="./img/banner/logo.png" alt="logo.png" />
     </section>
 
     <section class="products container">
-      <h2 class="products__category">Чехлы</h2>
+      <h2 class="products__title">Чехлы</h2>
 
       <div class="products__catalog">
-        <div class="case product__background">
+        <div class="case container-product">
           <img
             class="case__img"
-            src="img/carts/cases/glass.jpg"
+            src="./img/carts/cases/glass.jpg"
             alt="glass.jpg"
           />
 
-          <p class="case__description">Стеклянные</p>
+          <h3 class="case__title">Стеклянные</h3>
         </div>
 
-        <div class="case product__background">
+        <div class="case container-product">
           <img
             class="case__img"
-            src="img/carts/cases/silicone.jpg"
+            src="./img/carts/cases/silicone.jpg"
             alt="silicone.jpg"
           />
 
-          <p class="case__description">Силиконовые</p>
+          <h3 class="case__title">Силиконовые</h3>
         </div>
 
-        <div class="case product__background">
+        <div class="case container-product">
           <img
             class="case__img"
-            src="img/carts/cases/skin.jpg"
+            src="./img/carts/cases/skin.jpg"
             alt="skin.jpg"
           />
 
-          <p class="case__description">Кожаные</p>
+          <h3 class="case__title">Кожаные</h3>
         </div>
       </div>
 
-      <h2 class="products__category">Наушники</h2>
+      <h2 class="products__title">Наушники</h2>
 
       <div class="products__catalog">
-        <div class="product product__background">
+        <div class="product container-product">
           <img
             class="product__img-like"
-            src="img/carts/like.svg"
+            src="./img/carts/like.svg"
             alt="like.svg"
           />
 
           <img
             class="product__img-product"
-            src="img/carts/headphones/Apple-BYZ-S852I.jpg"
+            src="./img/carts/headphones/Apple-BYZ-S852I.jpg"
             alt="Apple-BYZ-S852I.jpg"
           />
 
-          <div class="product__info">
-            <h3 class="product__info-title">Apple BYZ S852I</h3>
-            <price class="product__info-price">2927 $</price>
+          <div class="product__description">
+            <h2 class="product__description-text">Apple BYZ S852I</h2>
+            <price class="product__description-price">2927 $</price>
           </div>
 
-          <div class="product__score">
-            <img
-              class="product__score-img"
-              src="img/carts/score.svg"
-              alt="score.svg"
-            />
+          <img
+            class="product__score-img"
+            src="./img/carts/score.svg"
+            alt="score.svg"
+          />
 
-            <span class="product__score-text">4.7</span>
-          </div>
+          <span class="product__score-text">4.7</span>
         </div>
 
-        <div class="product product__background">
+        <div class="product container-product">
           <img
             class="product__img-like"
-            src="img/carts/like.svg"
+            src="./img/carts/like.svg"
             alt="like.svg"
           />
 
           <img
             class="product__img-product"
-            src="img/carts/headphones/Apple-EarPods.jpg"
+            src="./img/carts/headphones/Apple-EarPods.jpg"
             alt="Apple-EarPods.jpg"
           />
 
-          <div class="product__info">
-            <h3 class="product__info-title">Apple EarPods</h3>
-            <price class="product__info-price">2327 $</price>
+          <div class="product__description">
+            <h2 class="product__description-text">Apple EarPods</h2>
+            <price class="product__description-price">2327 $</price>
           </div>
 
-          <div class="product__score">
-            <img
-              class="product__score-img"
-              src="img/carts/score.svg"
-              alt="score.svg"
-            />
+          <img
+            class="product__score-img"
+            src="./img/carts/score.svg"
+            alt="score.svg"
+          />
 
-            <span class="product__score-text">4.5</span>
-          </div>
+          <span class="product__score-text">4.5</span>
         </div>
 
-        <div class="product product__background">
+        <div class="product container-product">
           <img
             class="product__img-like"
-            src="img/carts/like.svg"
+            src="./img/carts/like.svg"
             alt="like.svg"
           />
 
           <img
             class="product__img-product"
-            src="img/carts/headphones/Apple-EarPods-case.jpg"
+            src="./img/carts/headphones/Apple-EarPods-case.jpg"
             alt="Apple-EarPods-case.jpg"
           />
 
-          <div class="product__info">
-            <h3 class="product__info-title">Apple EarPods case</h3>
-            <price class="product__info-price">2127 $</price>
+          <div class="product__description">
+            <h2 class="product__description-text">Apple EarPods</h2>
+            <price class="product__description-price">2127 $</price>
           </div>
 
-          <div class="product__score">
-            <img
-              class="product__score-img"
-              src="img/carts/score.svg"
-              alt="score.svg"
-            />
+          <img
+            class="product__score-img"
+            src="./img/carts/score.svg"
+            alt="score.svg"
+          />
 
-            <span class="product__score-text">4.3</span>
-          </div>
+          <span class="product__score-text">4.7</span>
         </div>
 
-        <div class="product product__background">
+        <div class="product container-product">
           <img
             class="product__img-like"
-            src="img/carts/like.svg"
+            src="./img/carts/like.svg"
             alt="like.svg"
           />
 
           <img
             class="product__img-product"
-            src="img/carts/headphones/Apple-BYZ-S852I.jpg"
+            src="./img/carts/headphones/Apple-BYZ-S852I.jpg"
             alt="Apple-BYZ-S852I.jpg"
           />
 
-          <div class="product__info">
-            <h3 class="product__info-title">Apple BYZ S852I</h3>
-            <price class="product__info-price">2927 $</price>
+          <div class="product__description">
+            <h2 class="product__description-text">Apple BYZ S852I</h2>
+            <price class="product__description-price">2927 $</price>
           </div>
 
-          <div class="product__score">
-            <img
-              class="product__score-img"
-              src="img/carts/score.svg"
-              alt="score.svg"
-            />
+          <img
+            class="product__score-img"
+            src="./img/carts/score.svg"
+            alt="score.svg"
+          />
 
-            <span class="product__score-text">4.7</span>
-          </div>
+          <span class="product__score-text">4.7</span>
         </div>
 
-        <div class="product product__background">
+        <div class="product container-product">
           <img
             class="product__img-like"
-            src="img/carts/like.svg"
+            src="./img/carts/like.svg"
             alt="like.svg"
           />
 
           <img
             class="product__img-product"
-            src="img/carts/headphones/Apple-EarPods.jpg"
+            src="./img/carts/headphones/Apple-EarPods.jpg"
             alt="Apple-EarPods.jpg"
           />
 
-          <div class="product__info">
-            <h3 class="product__info-title">Apple EarPods</h3>
-            <price class="product__info-price">2327 $</price>
+          <div class="product__description">
+            <h2 class="product__description-text">Apple EarPods</h2>
+            <price class="product__description-price">2327 $</price>
           </div>
 
-          <div class="product__score">
-            <img
-              class="product__score-img"
-              src="img/carts/score.svg"
-              alt="score.svg"
-            />
+          <img
+            class="product__score-img"
+            src="./img/carts/score.svg"
+            alt="score.svg"
+          />
 
-            <span class="product__score-text">4.5</span>
-          </div>
+          <span class="product__score-text">4.5</span>
         </div>
 
-        <div class="product product__background">
+        <div class="product container-product">
           <img
             class="product__img-like"
-            src="img/carts/like.svg"
+            src="./img/carts/like.svg"
             alt="like.svg"
           />
 
           <img
             class="product__img-product"
-            src="img/carts/headphones/Apple-EarPods-case.jpg"
+            src="./img/carts/headphones/Apple-EarPods-case.jpg"
             alt="Apple-EarPods-case.jpg"
           />
 
-          <div class="product__info">
-            <h3 class="product__info-title">Apple EarPods case</h3>
-            <price class="product__info-price">2127 $</price>
+          <div class="product__description">
+            <h2 class="product__description-text">Apple EarPods</h2>
+            <price class="product__description-price">2127 $</price>
           </div>
 
-          <div class="product__score">
-            <img
-              class="product__score-img"
-              src="img/carts/score.svg"
-              alt="score.svg"
-            />
+          <img
+            class="product__score-img"
+            src="./img/carts/score.svg"
+            alt="score.svg"
+          />
 
-            <span class="product__score-text">4.3</span>
-          </div>
+          <span class="product__score-text">4.7</span>
         </div>
       </div>
 
-      <h2 class="products__category">Беспроводные наушники</h2>
+      <h2 class="products__title">Беспроводные наушники</h2>
 
       <div class="products__catalog">
-        <div class="product product__background">
+        <div class="product container-product">
           <img
             class="product__img-like"
-            src="img/carts/like.svg"
+            src="./img/carts/like.svg"
             alt="like.svg"
           />
 
           <img
             class="product__img-product"
-            src="img/carts/air-headphones/Apple-AirPods-2.jpg"
+            src="./img/carts/air-headphones/Apple-AirPods-2.jpg"
             alt="Apple-AirPods-2.jpg"
           />
 
-          <div class="product__info">
-            <h3 class="product__info-title">Apple AirPods 2</h3>
-            <price class="product__info-price">9527 $</price>
+          <div class="product__description">
+            <h2 class="product__description-text">Apple AirPods</h2>
+            <price class="product__description-price">9527 $</price>
           </div>
 
-          <div class="product__score">
-            <img
-              class="product__score-img"
-              src="img/carts/score.svg"
-              alt="score.svg"
-            />
+          <img
+            class="product__score-img"
+            src="./img/carts/score.svg"
+            alt="score.svg"
+          />
 
-            <span class="product__score-text">4.7</span>
-          </div>
+          <span class="product__score-text">4.5</span>
         </div>
 
-        <div class="product product__background">
+        <div class="product container-product">
           <img
             class="product__img-like"
-            src="img/carts/like.svg"
+            src="./img/carts/like.svg"
             alt="like.svg"
           />
 
           <img
             class="product__img-product"
-            src="img/carts/air-headphones/Apple-AirPods-3.jpg"
+            src="./img/carts/air-headphones/Apple-AirPods-3.jpg"
             alt="Apple-AirPods-3.jpg"
           />
 
-          <div class="product__info">
-            <h3 class="product__info-title">Apple AirPods 3</h3>
-            <price class="product__info-price">6527 $</price>
+          <div class="product__description">
+            <h2 class="product__description-text">Apple AirPods 3</h2>
+            <price class="product__description-price">6527 $</price>
           </div>
 
-          <div class="product__score">
-            <img
-              class="product__score-img"
-              src="img/carts/score.svg"
-              alt="score.svg"
-            />
+          <img
+            class="product__score-img"
+            src="./img/carts/score.svg"
+            alt="score.svg"
+          />
 
-            <span class="product__score-text">4.1</span>
-          </div>
+          <span class="product__score-text">4.8</span>
         </div>
 
-        <div class="product product__background">
+        <div class="product container-product">
           <img
             class="product__img-like"
-            src="img/carts/like.svg"
+            src="./img/carts/like.svg"
             alt="like.svg"
           />
 
           <img
             class="product__img-product"
-            src="img/carts/air-headphones/JBL.jpg"
+            src="./img/carts/air-headphones/JBL.jpg"
             alt="JBL.jpg"
           />
 
-          <div class="product__info">
-            <h3 class="product__info-title">JBL</h3>
-            <price class="product__info-price">7527 $</price>
+          <div class="product__description">
+            <h2 class="product__description-text">JBL</h2>
+            <price class="product__description-price">7527 $</price>
           </div>
 
-          <div class="product__score">
-            <img
-              class="product__score-img"
-              src="img/carts/score.svg"
-              alt="score.svg"
-            />
+          <img
+            class="product__score-img"
+            src="./img/carts/score.svg"
+            alt="score.svg"
+          />
 
-            <span class="product__score-text">4.0</span>
-          </div>
+          <span class="product__score-text">4.7</span>
         </div>
       </div>
     </section>
 
-    <footer class="footer container">
+    <section class="footer container">
       <h2 class="footer__title">QPICK</h2>
 
       <nav class="footer__nav">
@@ -373,7 +351,7 @@
       </nav>
 
       <div class="footer__conditions">
-        <h3 class="footer__conditions-text">Условия сервиса</h3>
+        <span class="footer__conditions-text">Условия сервиса</span>
 
         <div class="footer__language">
           <span class="footer__language-text">Каз</span>
@@ -382,31 +360,31 @@
         </div>
       </div>
 
-      <div class="footer__messenger">
+      <div class="footer__messager">
         <img
-          class="footer__messenger-img"
-          src="img/footer/VK.svg"
+          class="footer__message-img"
+          src="./img/footer/VK.svg"
           alt="VK.svg"
         />
 
         <img
-          class="footer__messenger-img"
-          src="img/footer/Instagram.svg"
+          class="footer__message-img"
+          src="./img/footer/Instagram.svg"
           alt="Instagram.svg"
         />
 
         <img
-          class="footer__messenger-img"
-          src="img/footer/Telegram.svg"
+          class="footer__message-img"
+          src="./img/footer/Telegram.svg"
           alt="Telegram.svg"
         />
 
         <img
-          class="footer__messenger-img"
-          src="img/footer/Whatsapp.svg"
+          class="footer__message-img"
+          src="./img/footer/Whatsapp.svg"
           alt="Whatsapp.svg"
         />
       </div>
-    </footer>
+    </section>
   </body>
 </html>

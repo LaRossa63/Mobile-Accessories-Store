@@ -1,0 +1,28 @@
+body {
+  background-color: #eaeaea;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container-product {
+  width: 100%;
+  max-width: 350px;
+
+  height: 100%;
+  max-height: 407px;
+
+  margin: 10px;
+  padding: 10px;
+
+  background-color: $container-product;
+  border-radius: 30px;
+}

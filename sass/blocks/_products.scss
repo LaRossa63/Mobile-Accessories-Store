@@ -1,0 +1,17 @@
+.products {
+}
+
+.products__title {
+  margin-top: 30px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #838383;
+}
+
+.products__catalog {
+  display: flex;
+  flex-wrap: wrap;
+}

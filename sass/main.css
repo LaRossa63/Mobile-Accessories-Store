@@ -1,0 +1,320 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+body {
+  background-color: #eaeaea;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container-product {
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  max-height: 407px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-phone {
+  width: 22px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.header__nav-text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.header__nav-arrow {
+  width: 8px;
+  height: 5px;
+  margin-left: 5px;
+}
+
+.header__container-like {
+  width: 22px;
+  height: 20px;
+  margin-right: 25px;
+}
+
+.header__container-store {
+  width: 22px;
+  height: 20px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  max-height: 197px;
+  margin-bottom: 30px;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.banner__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #ffffff;
+}
+
+.banner__logo {
+  width: 321px;
+  height: 226px;
+}
+
+.products__title {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #838383;
+}
+
+.products__catalog {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.case__img {
+  margin: 25px 100px;
+  width: 151px;
+  height: 292px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.case__title {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.product__img-like {
+  width: 20px;
+  height: 18px;
+}
+
+.product__img-product {
+  margin: 15px 30px;
+  width: 219px;
+  height: 237px;
+}
+
+.product__description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.product__description-text {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.product__description-price {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffa542;
+}
+
+.product__score-img {
+  margin-right: 10px;
+  width: 23px;
+  height: 21px;
+}
+
+.product__score-text {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #838383;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-height: 197px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.footer__title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__nav-text {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.footer__conditions-text {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.footer__language {
+  margin-top: 30px;
+}
+
+.footer__language-text {
+  margin-right: 15px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.focus {
+  color: #ffa542;
+}
+
+.footer__message-img {
+  margin-right: 18px;
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=main.css.map */
