@@ -1,8 +1,8 @@
 .products {
 }
 
-.products__category {
-  margin-bottom: 20px;
+.products__title {
+  margin-top: 30px;
 
   font-weight: 600;
   font-size: 20px;
@@ -13,4 +13,5 @@
 
 .products__catalog {
   display: flex;
+  flex-wrap: wrap;
 }

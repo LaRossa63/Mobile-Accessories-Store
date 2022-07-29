@@ -1,21 +1,11 @@
 .case {
-  width: 100%;
-  max-width: 350px;
-
-  height: 100%;
-  max-height: 407px;
-
-  padding: 25px 100px;
-
-  background-color: white;
-  border-radius: 30px;
 }
 
 .case__img {
+  margin: 25px 100px;
+
   width: 151px;
   height: 292px;
-
-  margin-bottom: 25px;
 
   object-fit: contain;
 }
@@ -24,6 +14,5 @@
   font-weight: 600;
   font-size: 17px;
   line-height: 21px;
-
   text-align: center;
 }
