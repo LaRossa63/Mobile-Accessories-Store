@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  margin-bottom: 25px;
 }
 
 .header__title {
@@ -11,6 +13,10 @@
 }
 
 .header__nav {
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
 }
 
 .header__nav-phone {
@@ -39,7 +45,7 @@
   position: relative;
 }
 
-.favourites-img {
+.favourites-image {
   width: 23px;
   height: 23px;
 }
@@ -54,7 +60,7 @@
 
   text-align: center;
 
-  background-color: #ffa542;
+  background-color: $header__background-ellipse;
   border-radius: 30px;
-  color: white;
+  color: $header__background-ellipse-text;
 }
