@@ -8,13 +8,15 @@
 }
 
 .product__image-product {
-  width: 219px;
+  width: 151px;
   height: 237px;
 
   margin-left: 50%;
   margin-bottom: 25px;
 
   transform: translateX(-50%);
+
+  object-fit: contain;
 }
 
 .product__info {
