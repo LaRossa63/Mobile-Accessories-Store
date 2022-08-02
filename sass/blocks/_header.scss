@@ -3,6 +3,8 @@
   justify-content: space-between;
   align-items: center;
 
+  position: relative;
+
   margin-bottom: 25px;
 }
 
@@ -17,6 +19,10 @@
   align-items: center;
 
   gap: 5px;
+
+  @media (max-width: 425px) {
+    display: none;
+  }
 }
 
 .header__nav-phone {
@@ -39,6 +45,10 @@
   display: flex;
 
   gap: 20px;
+
+  @media (max-width: 425px) {
+    display: none;
+  }
 }
 
 .favourites-container {
@@ -64,3 +74,4 @@
   border-radius: 30px;
   color: $header__background-ellipse-text;
 }
+
