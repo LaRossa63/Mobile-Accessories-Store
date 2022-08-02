@@ -1,26 +1,46 @@
 .banner {
+  width: 99%;
+
+  height: 100%;
+  max-height: 187px;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
 
-  height: 100%;
-  max-height: 197px;
-
-  margin-bottom: 30px;
-
-  background-color: $banner-color;
+  background-color: $banner__background;
   border-radius: 30px;
+
+  @media (max-width: 530px) {
+    width: 80%;
+    max-height: unset;
+
+    flex-direction: column;
+  }
 }
 
 .banner__title {
   font-weight: 600;
   font-size: 30px;
   line-height: 37px;
+  text-align: center;
 
-  color: #ffffff;
+  color: white;
+
+  @media (max-width: 530px) {
+    font-weight: normal;
+    font-size: 24px;
+  }
 }
 
-.banner__logo {
-  width: 321px;
-  height: 226px;
+.banner__image {
+  width: 214px;
+  height: 185px;
+
+  padding: 10px;
+
+  @media (max-width: 530px) {
+    width: 180px;
+    object-fit: contain;
+  }
 }
