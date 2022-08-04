@@ -4,22 +4,3 @@ body {
   font-family: 'Montserrat';
   font-style: normal;
 }
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-
-  padding: 10px;
-  margin: 0 auto;
-}
-
-.container-product {
-  width: 100%;
-  max-width: 350px;
-
-  height: 100%;
-  max-height: 407px;
-
-  background-color: $product__background;
-  border-radius: 30px;
-}
