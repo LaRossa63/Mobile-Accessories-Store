@@ -1,21 +1,13 @@
 .banner {
-  width: 99%;
+  width: calc(100% - 30px);
 
-  height: 100%;
-  max-height: 187px;
-
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-
-  background-color: $banner__background;
+  background-color: $banner_background;
   border-radius: 30px;
 
-  @media (max-width: 530px) {
-    width: 80%;
-    max-height: unset;
-
-    flex-direction: column;
+  @media (min-width: $min-table) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 }
 
@@ -25,22 +17,21 @@
   line-height: 37px;
   text-align: center;
 
-  color: white;
-
-  @media (max-width: 530px) {
-    font-weight: normal;
-    font-size: 24px;
-  }
+  color: #ffffff;
 }
 
-.banner__image {
-  width: 214px;
-  height: 185px;
+.banner__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  padding: 10px;
+.banner__container-image {
+  width: 100%;
+  max-width: 321px;
 
-  @media (max-width: 530px) {
-    width: 180px;
-    object-fit: contain;
-  }
+  height: 100%;
+  max-height: 226px;
+
+  object-fit: contain;
 }

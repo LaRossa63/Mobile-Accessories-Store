@@ -2,28 +2,26 @@
 }
 
 .products__category {
-  margin-top: 50px;
-  margin-bottom: 25px;
-
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
 
   color: #838383;
 
-  @media (max-width: 1110px) {
-    font-size: 24px;
+  margin-bottom: 25px;
+
+  @media (max-width: $min-desktop) {
+    font-size: 30px;
     text-align: center;
   }
 }
 
 .products__catalog {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 
-  gap: 10px;
+  gap: 20px;
 
-  @media (max-width: 1110px) {
-    justify-content: center;
-  }
+  margin-bottom: 45px;
 }

@@ -1,17 +1,22 @@
+.case {
+}
+
 .case__image {
-  width: 151px;
-  height: 292px;
+  width: 100%;
+  max-width: 151px;
 
-  margin: 25px 0 25px 50%;
+  height: 100%;
+  max-height: 292px;
 
+  margin-left: 50%;
   transform: translateX(-50%);
 
   object-fit: contain;
+
+  margin-bottom: 20px;
 }
 
 .case__title {
-  margin-bottom: 25px;
-
   font-weight: 600;
   font-size: 17px;
   line-height: 21px;

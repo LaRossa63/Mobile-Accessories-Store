@@ -1,0 +1,105 @@
+.popup_hide {
+  display: none;
+}
+
+.header__burger {
+  @media (min-width: $min-big_phone) {
+    display: none;
+  }
+}
+
+.header__image-burger {
+  width: 35px;
+  height: 35px;
+}
+
+.header__popup-mobile {
+  width: 100vw;
+  height: 50px;
+
+  position: absolute;
+  right: 0;
+  left: 0;
+
+  transform: translateY(80%);
+
+  padding: 0 15px;
+}
+
+.popup__mobile-container {
+  padding: 15px;
+
+  background-color: $container_background; //container_background
+  border-radius: 0px 0px 30px 30px;
+}
+
+.popup__mobile-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+
+  border-bottom: 1px solid $content-border;
+}
+
+.popup__mobile-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 18px;
+}
+
+.popup__mobile-image {
+  width: 10px;
+  height: 10px;
+}
+
+.popup__mobile-ellipse {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  text-align: center;
+
+  padding: 3%;
+
+  color: #fff;
+
+  background-color: $ellipse;
+  border-radius: 50%;
+}
+
+// Каталог телефонов
+
+.popup__mobile-catalog {
+  width: 100%;
+}
+
+.catalog__content {
+  display: flex;
+  align-items: center;
+
+  margin: 15px;
+  gap: 10px;
+}
+
+.catalog__content:last-child {
+  padding-bottom: 10px;
+  border-bottom: 1px solid $content-border;
+}
+
+.catalog__text {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+
+  &:hover {
+    color: $text-action;
+  }
+}
+
+.catalog__image {
+  width: 10px;
+  height: 10px;
+}

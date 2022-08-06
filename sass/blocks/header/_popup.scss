@@ -1,0 +1,28 @@
+.header__nav-popup {
+  position: absolute;
+  transform: translateY(60%);
+  background-color: $container_background;
+
+  border-radius: 0px 0px 30px 30px;
+  padding: 25px;
+}
+
+.nav__popup-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.nav__popup-text {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.nav__popup-image {
+  width: 10px;
+  height: 7px;
+}

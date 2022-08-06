@@ -3,11 +3,14 @@
 @import './base/base';
 
 // Blocks
-@import './blocks/header';
-@import './blocks/mobile';
+@import './blocks/header/index.scss';
+@import './blocks/header/popup-mobile.scss';
+@import './blocks/header/popup.scss';
+
 @import './blocks/banner';
 
-@import './blocks/products';
-@import './blocks/case';
-@import './blocks/product';
+@import './blocks/product/products';
+@import './blocks/product/case';
+@import './blocks/product/product';
+
 @import './blocks/footer';

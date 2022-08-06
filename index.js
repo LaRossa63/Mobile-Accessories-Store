@@ -1,8 +1,20 @@
-const btn_burger = document.querySelector('.header__burger-btn');
-const menu_mobile = document.querySelector('.header__mobile');
+const btn_burger = document.querySelector('.header__image-burger');
+const popup_mobile = document.querySelector('.header__popup-mobile');
+
+const btn_catalog = document.querySelector('#popup__catalog-btn');
+const popup_catalog_mobile = document.querySelector('.popup__mobile-catalog');
+
+const btn_nav = document.querySelector('.header__nav');
+const popup_catalog = document.querySelector('.header__nav-popup');
 
 btn_burger.addEventListener('click', () => {
-  menu_mobile.classList.toggle('header__hide');
+  popup_mobile.classList.toggle('popup_hide');
+});
 
-  console.log('гуд');
+btn_catalog.addEventListener('click', () => {
+  popup_catalog_mobile.classList.toggle('popup_hide');
+});
+
+btn_nav.addEventListener('click', () => {
+  popup_catalog.classList.toggle('popup_hide');
 });
