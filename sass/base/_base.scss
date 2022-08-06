@@ -14,3 +14,16 @@ body {
 
   margin-bottom: 30px;
 }
+
+.content__background {
+  width: 100%;
+  max-width: 350px;
+
+  height: 100%;
+  max-height: 407px;
+
+  background-color: $products_background;
+  border-radius: 30px;
+
+  padding: 20px;
+}
