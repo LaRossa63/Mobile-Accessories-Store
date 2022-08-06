@@ -3,7 +3,7 @@
 }
 
 .header__burger {
-  @media (min-width: 440px) {
+  @media (min-width: $min-table) {
     display: none;
   }
 }
@@ -41,7 +41,7 @@
   margin-bottom: 20px;
   padding-bottom: 8px;
 
-  border-bottom: 1px solid #838383;
+  border-bottom: 1px solid $content-border;
 }
 
 .popup__mobile-text {

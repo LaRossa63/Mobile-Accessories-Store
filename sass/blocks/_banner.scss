@@ -1,0 +1,37 @@
+.banner {
+  width: calc(100% - 30px);
+
+  background-color: $banner_background;
+  border-radius: 30px;
+
+  @media (min-width: 770px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.banner__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.banner__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner__container-image {
+  width: 100%;
+  max-width: 321px;
+
+  height: 100%;
+  max-height: 226px;
+
+  object-fit: contain;
+}
