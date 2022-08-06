@@ -3,7 +3,7 @@
 }
 
 .header__burger {
-  @media (min-width: $min-table) {
+  @media (min-width: $min-big_phone) {
     display: none;
   }
 }
