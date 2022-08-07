@@ -19,7 +19,9 @@
 
   gap: 10px;
 
-  @media (max-width: $min-big_phone) {
+  cursor: pointer;
+
+  @media (max-width: ($min-big_phone - 1px)) {
     display: none;
   }
 }
@@ -44,7 +46,7 @@
   display: flex;
   gap: 20px;
 
-  @media (max-width: $min-big_phone) {
+  @media (max-width: ($min-big_phone - 1px)) {
     display: none;
   }
 }
@@ -61,14 +63,13 @@
 .header__favorite-ellipse {
   font-weight: 500;
   font-size: 15px;
-  line-height: 18px;
 
   text-align: center;
 
   position: absolute;
   transform: translate(-30%, -30%);
 
-  padding: 10%;
+  padding: 4px;
 
   color: #fff;
 

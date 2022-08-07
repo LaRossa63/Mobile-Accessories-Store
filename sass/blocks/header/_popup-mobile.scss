@@ -3,6 +3,8 @@
 }
 
 .header__burger {
+  cursor: pointer;
+
   @media (min-width: $min-big_phone) {
     display: none;
   }
@@ -29,7 +31,7 @@
 .popup__mobile-container {
   padding: 15px;
 
-  background-color: $container_background; //container_background
+  background-color: $container_background;
   border-radius: 0px 0px 30px 30px;
 }
 
@@ -62,7 +64,7 @@
 
   text-align: center;
 
-  padding: 3%;
+  padding: 4px;
 
   color: #fff;
 
